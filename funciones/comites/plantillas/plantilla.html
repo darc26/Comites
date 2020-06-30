@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family:Roboto-Regular,Helvetica,Arial,sans-serif;
+	}
+	.contenedor{
+		background: #4c8790;
+		display: flow-root;
+		height: 557px;
+			
+	}
+	.row{
+		float: left;
+		margin: auto;
+		width: 478px;
+		margin-left: 359px;
+		padding: 16px;
+		background-color: white;
+	}
+	.row2{
+		width: 430px;
+	   padding: 42px 0 0px 78px;
+		
+		margin-top: 32px;
+		margin-bottom: 12px;
+		margin-left: 359px;
+		height: 230px;
+		background-color: white
+	}
+	
+	.img{
+		height: 66px;
+	}
+	.div1{
+		float: left;
+		border-right: black 1px  solid;
+		padding-right: 16px;
+		
+	}
+	.div2{
+		float: right;
+		
+
+	}
+	.div3{
+		float: left;
+
+		border-top: black 1px  solid;
+	}
+	p{
+		padding-bottom: 0;
+	}
+</style>
+
+<body>
+<div class="contenedor">
+	<div class="row2">
+		<h4><img style="height: 46px;" src="images.jpg" alt=""> Hola,  %usunombre%</h4>
+	
+		<h2 style="margin: 13px 0px 32px 113px;">%titulo%</h2>
+		<p style=" margin-bottom: 12px">Se le informa que tiene un comite pendiente .</p>
+		<p style="float: left;     margin-right: 69px;"><strong>Fecha: </strong>  %fecha%</p>
+		<p ><strong>Hora: </strong>  %horaini%</p>
+	</div>
+	<div class="row">
+		<div class="div1"><img class="img" src="pavas.jpg" alt=""></div>
+		<div class="div2">
+			<p>CONTROL ACTAS Y COMITÉS</p>
+			<p>Tel. (4) 480 49 00 - 480 49 02</p>
+			<p>Cel. 304 218 62 07</p>
+			<p>PAVAS S.A.S</p>
+			<p>www.pavas.co</p>
+		</div>
+		<div class="div3">
+			<div style="text-align:left">
+				<div style="font-family:Roboto-Regular,Helvetica,Arial,sans-serif;color:rgba(0,0,0,0.54);font-size:12px;line-height:20px;padding-top:10px">
+					<div>Este mensaje es generado automáticamente por PAVAS CONTROL ACTAS Y COMITÉS , por favor no responda a este correo, cualquier duda adicional puede resolverla comunicandose al (4) 480 49 00
+					</div>
+					<div style="direction:ltr; font-weight: bold;color: blue">© <?php echo date('Y')?> PAVAS S.A.S  
+					</div>
+				</div>
+				<div style="display:none!important;max-height:0px;max-width:0px">et:100</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+	
+</body>
+</html>
